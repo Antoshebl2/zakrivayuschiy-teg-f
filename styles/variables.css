@@ -1,1 +1,13 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --font-main: "Inter", sans-serif;
+  --font-accent: "PressStart2P", "sans-serif";
+  --font-weight-main: 400;
+  --font-weight-bold: 700;
+  --background-main-color: #fff;
+  --image-label-highlight: #fff;
+  --button-main-color: #fff;
+  --heart-accent-color: #000;
+  --heart-fill-color: #ff0000;
+  --content-width: clamp(375px, 100vw, 700px);
+}
