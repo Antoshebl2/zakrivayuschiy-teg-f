@@ -101,7 +101,7 @@
   font-family: var(--font-accent);
   font-size: 14px;
   line-height: 14px;
-  background-blend-mode: hard-light;
+  mix-blend-mode: hard-light;
   text-shadow: -1px 0 var(--image-label-highlight),
     0 1px var(--image-label-highlight), 1px 0 var(--image-label-highlight),
     0 -1px var(--image-label-highlight);
@@ -111,6 +111,7 @@
 
 .card__image {
   display: flex;
+  object-position: center;
   object-fit: cover;
 }
 
